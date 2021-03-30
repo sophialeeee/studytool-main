@@ -1,0 +1,1056 @@
+
+.detail {
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
+  height: 100vh;
+  width: 200px;
+  transition-property: right;
+  transition-duration: 1s;
+  width: 600px;
+  overflow: auto;
+}
+
+.shown {
+  right: 0;
+}
+
+.hidden {
+  right: -100%;
+}
+
+.side-bar {
+  background-color: #fafafa;
+  height: calc(100vh - 56px);
+  position: fixed;
+  width: 240px;
+}
+
+.topics-tree {
+  margin-top: 80px;
+  background-color: #fafafa;
+  height:520px;
+/*  max-height: calc(100vh - 136px);  */
+  overflow: auto;
+}
+
+.learning-method {
+  position: absolute;
+  padding: 4px;
+}
+
+.learning-special {
+  margin-top: 120px;
+  max-height: calc(100vh - 176px);
+}
+
+.topics-header {
+  position: absolute;
+  top: 40px;
+  padding: 4px;
+}
+
+.topics-header-special {
+  top: 80px;
+}
+
+.menu-button {
+  border-color:black;
+	border-width:1px;
+	border-radius:16px;
+	background-color:#FED658;
+  color: black;
+  height:58px;
+	width:200px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+	font-weight:bold;
+	margin-top: 80px;
+	margin-left:20px;
+	top:672px;
+	position:fixed;
+	outline:none;
+	z-index:1;
+}
+.menu-pic {
+	border-radius:2px;
+  height:34px;
+	width:46px;
+	margin-top: 8px;
+	margin-left: 10px;
+  display: inline-block;
+	background:url(main.jpg);
+	z-index:1;
+}
+
+.menu-text {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+	font-weight:bold;
+	margin-top: 8px;
+	margin-left: 20px;
+	position:fixed;
+	outline:none;
+	z-index:1;
+}
+
+.learning-tool {
+	width: 541px;
+	height: 300px;
+	background-color: white;
+	top: 50%;   
+	left:50%;
+	border-radius:18px;
+	border-style:solid;
+	border-color:#000000;
+	border-width:1.5px;
+	position: absolute;
+	transform:translate(-50%,-50%);
+}
+
+.bgcolor1 {
+	background-color:#FED658;
+	width: 541px;
+	height: 330px;
+	top: 50%;   
+	left:50%;
+	border-radius:25px;
+	border-style:solid;
+	border-color:#000000;
+	border-width:1.5px;
+	position: absolute;
+	transform:translate(-50%,-50%);
+}
+.bgcolor2 {
+	background-color:#9AE6F0;
+	width: 541px;
+	height: 330px;
+	top: 50%;   
+	left:50%;
+	border-radius:18px;
+	border-style:solid;
+	border-color:#000000;
+	border-width:1.5px;
+	position: absolute;
+	transform:translate(-50%,-50%);
+}
+.bgcolor3 {
+	background-color:#FFBA8F;
+	width: 541px;
+	height: 330px;
+	top: 50%;   
+	left:50%;
+	border-radius:18px;
+	border-style:solid;
+	border-color:#000000;
+	border-width:1.5px;
+	position: absolute;
+	transform:translate(-50%,-50%);
+}
+.bgcolor4 {
+	background-color:#C7F39F;
+	width: 541px;
+	height: 330px;
+	top: 50%;   
+	left:50%;
+	border-radius:18px;
+	border-style:solid;
+	border-color:#000000;
+	border-width:1.5px;
+	position: absolute;
+	transform:translate(-50%,-50%);
+}
+
+.detail-page1 {
+	width: 800px;
+	height: 500px;
+	background-color: #FED658;
+	position: fixed;
+	top: 50%;   
+	left:50%;
+	border-radius:15px;
+	border-style:solid;
+	border-color:#000000;
+	border-width:1.5px;
+	transform:translate(-50%,-50%);
+}
+
+.detail-page2 {
+	width: 800px;
+	height: 500px;
+	background-color: #9AE6F0;
+	position: fixed;
+	top: 50%;   
+	left:50%;
+	border-radius:15px;
+	border-style:solid;
+	border-color:#000000;
+	border-width:1.5px;
+	transform:translate(-50%,-50%);
+}
+.detail-page4 {
+	width: 800px;
+	height: 500px;
+	background-color: #C7F39F;
+	position: fixed;
+	top: 50%;   
+	left:50%;
+	border-radius:15px;
+	border-style:solid;
+	border-color:#000000;
+	border-width:1.5px;
+	transform:translate(-50%,-50%);
+}
+
+.detail-page {
+	width: 800px;
+	height: 500px;
+	background-color: yellow;
+	position: fixed;
+	top: 50%;   
+	left:50%;
+	border-radius:15px;
+	border-style:solid;
+	border-color:#000000;
+	border-width:1.5px;
+	transform:translate(-50%,-50%);
+}
+
+.tab {
+	text-indent:1em;
+}
+/*
+问题解答背景色：#FED658
+知识自测背景色：#9AE6F0
+学习路径背景色：#FFBA8F
+对比学习背景色：#C7F39F  */
+
+.button1 {
+    background-color: #FED658; 
+    border-color:black;
+	border-radius:15px;
+    color: black;
+    padding: 18px 44px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+	font-weight:bold;
+	left:8%;
+	top:15%;
+	position:absolute;
+	outline:none;
+}
+.button1:hover {
+    background-color: white;
+    color: #FED658;
+}
+
+.button2 {
+    background-color: #9AE6F0; 
+    border-color:black;
+	border-radius:15px;
+    color: black;
+    padding: 18px 44px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+	font-weight:bold;
+	left:54%;
+	top:15%;
+	position:absolute;
+	outline:none;
+}
+.button2:hover {
+    background-color: white;
+    color:#9AE6F0;
+}
+
+.button3 {
+    background-color: #FFBA8F; 
+    border-color:black;
+	border-radius:15px;
+    color: black;
+    padding: 18px 44px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+	font-weight:bold;
+	left:8%;
+	top:58%;
+	position:absolute;
+	outline:none;
+}
+.button3:hover {
+    background-color: white;
+    color: #FFBA8F;
+}
+
+.button4 {
+    background-color: #C7F39F; /* Green */
+    border-color:black;
+	border-radius:15px;
+    color: black;
+    padding: 18px 44px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+	font-weight:bold;
+	left:54%;
+	top:58%;
+	position:absolute;
+	outline:none;
+}
+.button4:hover {
+    background-color: white;
+    color: #C7F39F;
+}
+
+
+.button-func1 {
+    background-color: #FED658; /* 问题解答背景颜色 */
+    border-color: black;
+	border-radius:15px;
+	border-width:1.5px;
+    color: black;
+	padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+	font-weight:bold;
+	outline:none;
+	top:-7%;
+	left:0%;
+	position:absolute;
+	z-index:1;
+}
+.button-func1:hover {
+    background-color: white;
+    color: #FED658;
+}
+.button-func2 {
+    background-color: #9AE6F0; /* 知识自测背景颜色 */
+    border-color: black;
+	border-radius:15px;
+	border-width:1.5px;
+    color: black;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+	font-weight:bold;
+	outline:none;
+	top:-7%;
+	left:25%;
+	position:absolute;
+	z-index:1;
+}
+.button-func2:hover {
+    background-color: white;
+    color: #9AE6F0;
+}
+.button-func3 {
+    background-color: #FFBA8F; /* 学习路径背景颜色 */
+    border-color: black;
+	border-radius:15px;
+	border-width:1.5px;
+    color: black;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+	font-weight:bold;
+	outline:none;
+	top:-7%;
+	left:50%;
+	position:fixed;
+	z-index:1;
+}
+.button-func3:hover {
+    background-color: white;
+    color: #FFBA8F;
+}
+.button-func4 {
+    background-color: #C7F39F; /* 对比学习背景颜色 */
+    border-color: black;
+	border-radius:15px;
+	border-width:1.5px;
+    color: black;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+	font-weight:bold;
+	outline:none;
+	top:-7%;
+	left:74.9%;
+	position:fixed;
+	z-index:1;
+}
+.button-func4:hover {
+    background-color: white;
+    color: #C7F39F;
+}
+
+.index-size {
+	font-size:18px;
+	font-weight:bold;
+	text-align:center-left;	
+	padding-top: 35px;
+	/* padding-top:68%; */
+	padding-left:8%;
+}
+
+.index-size-4 {
+	font-size:18px;
+	font-weight:bold;
+	text-align:center-left;	
+	padding-top: 15px;
+	/* padding-top:68%; */
+	padding-left:32px;
+}
+.index-size1 {
+	font-size:16px;
+	font-weight:bold;
+	text-align:center-left;	
+	padding-top: 20px;
+	/* padding-top:68%; */
+	padding-left:8%;
+}
+.index-size2 {
+	font-size:18px;
+	font-weight:bold;
+	text-align:center-left;	
+	padding-top:28%;
+	padding-left:8%;
+}
+.func1-inputbox {
+	width: 450px;
+	height: 160px;
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 190px;
+	left:50%;
+	border-style:solid;
+	border-color:#000000;
+	border-width:2px;
+	border-radius: 12px;
+	font-size:15px;
+	outline:none;
+	overflow: auto;
+	transform:translate(-50%,-50%);	
+}
+
+.button-func1-backtomain {
+	width: 90px;
+	height: 30px;
+	color: black;
+	background-color: white;
+	border-color: black;
+	border-radius: 20px;
+	border-width: 2px;
+	left:25%;
+	bottom:15px;
+	position:absolute;
+	font-weight:bold;
+	font-size:16px;
+	outline:none;
+}
+
+.button-func1-toreasons {
+	width: 90px;
+	height: 30px;
+	color: black;
+	background-color: white;
+	border-color: black;
+	border-radius: 20px;
+	border-width: 2px;
+	right:25%;
+	bottom: 15px;
+	font-weight: bold;
+	position:absolute;
+	font-size:16px;
+	outline:none;
+}
+
+
+.func1-result {
+	width: 160px;
+	height: 120px;
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 15px;
+	right:15px;
+	border-style:solid;
+	border-color:#000000;
+	border-width:2px;
+	border-radius: 12px;
+	font-size:15px;
+	font-weight:bold;
+	text-align:center;
+	
+}
+
+.result-size {
+	font-size:40px;
+	font-weight:bolder;
+	text-align:center;	
+}
+.func1-question {
+	width: 580px;
+	height: 180px;
+	background-color: #FFFFFF;
+	position: fixed;
+	top:15px;
+	left:15px;
+	border-style:solid;
+	border-color:#000000;
+	border-width:2px;
+	border-radius: 12px;
+	font-size:16px;
+	outline:none;
+	overflow: auto;
+	padding-left:10px;
+	padding-right:10px;	
+}
+
+.func1-reasons {
+	width: 762px;
+	height: 262px;
+	background-color: #FFFFFF;
+	position: fixed;
+	bottom: 15px;
+	left:15px;
+	border-style:solid;
+	border-color:#000000;
+	border-width:2px;
+	border-radius: 12px;
+	font-size:16px;
+	font-weight:bold; 
+	padding-left:10px;
+	padding-right:10px;
+	outline:none;
+	overflow: auto;
+}
+
+.button-func1-backtomenu {
+	width: 100px;
+	height: 45px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-color: black;
+	border-radius: 20px;
+/*	box-shadow: 0 2px #000000;*/
+	right:45px;
+	top:150px;
+	position:absolute;
+	outline:none;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.button-func2-backtomain {
+	width: 80px;
+	height: 30px;
+	color: black;
+	background-color: white;
+	border-color: black;
+	border-radius: 15px;
+	left:60%;
+	bottom:15px;
+	position:absolute;
+	font-weight:bold;
+	font-size:16px;
+	outline:none;
+}
+
+
+.button-func2-backtomenu {      /*返回功能二主界面*/
+	width: 100px;
+	height: 45px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-color: black;
+	border-radius: 20px;
+/*	box-shadow: 0 2px #000000;*/
+	right:45px;
+	top:150px;
+	position:absolute;
+	outline:none;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.button-func2-toresult {
+	width: 160px;
+	height: 30px;
+	color: black;
+	background-color: white;
+	border-color: black;
+	border-radius: 15px;
+	left:35%;
+	top:86%;
+	position:absolute;
+	font-weight:bold;
+	font-size:16px;
+	outline:none;
+}
+
+.button-func2-toreasons {
+	width: 80px;
+	height: 30px;
+	color: black;
+	background-color: white;
+	border-color: black;
+	border-radius: 15px;
+	right:25px;
+	bottom:15px;
+	position:absolute;
+	font-weight:bold;
+	font-size:16px;
+	outline:none;
+}
+
+.func2-result1 {   /*功能二首页的结果栏*/
+	width: 200px;
+	height: 30px;
+	background-color: #FFFFFF;
+	position: fixed;
+	bottom: 15px;
+	left: 25px;
+	border-style:solid;
+	border-color:#000000;
+	border-width:2px;
+	border-radius: 15px;
+	font-size:15px;
+	font-weight:bold;
+	text-align:center;	
+}
+
+.func2-result2 {   /*功能二详情页的结果栏*/
+	width: 160px;
+	height: 120px;
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 15px;
+	right:15px;
+	border-style:solid;
+	border-color:#000000;
+	border-width:2px;
+	border-radius: 12px;
+	font-size:15px;
+	font-weight:bold;
+	text-align:center;	
+	padding-top: 10px;
+}
+
+.func2-questionbox {
+	/* width: 460px; */
+	height: 200px;
+	background-color: #FFFFFF;
+	position: fixed;
+	top:68px;
+	left:5%;
+	right:5%;
+	border-style:solid;
+	border-color:black;
+	border-width:2px;
+	border-radius: 15px;
+	font-size:15px;
+	padding-left:10px;
+	padding-right:6px;
+	overflow: auto;
+}
+
+
+.func2-reasons {
+	width: 762px;
+	height: 262px;
+	background-color: #FFFFFF;
+	position: fixed;
+	bottom: 15px;
+	left:15px;
+	border-style:solid;
+	border-color:#000000;
+	border-width:2px;
+	border-radius: 12px;
+	font-size:16px; 
+	padding-left:10px;
+	padding-right:10px;
+	overflow: auto;
+}
+.func2-reasons-text {
+	width: 550px;
+	height: 252px;
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 45%;
+	left:3%;
+	border-color:#FFFFFF;
+	border-width:2px;
+	border-radius: 15px;
+	font-size:16px; 
+	padding-left:5px;
+	padding-right:10px;
+}
+.func2-reasons-pic {
+	width: 250px;
+	height: 200px;
+	position: fixed;
+	top: 50%;
+	left:70%;
+	font-size:15.5px; 
+	padding-left:10px;
+	padding-top:10px;
+
+}
+.img {
+	width: 190px;
+	height: 173px;
+	z-index:1;
+	background:url(pic2.png);
+	position: fixed;
+	top: 54%;
+	left:72%;
+	padding:0px;
+	margin:0px;
+	display:block;
+}
+.img_func1_question {
+	width: 220px;
+	height: 180px;
+	z-index:1;
+	background:url(func1_question.png);
+	/* position: fixed;
+	top: 54%;
+	left:72%; */
+	padding:0px;
+	margin:0px;
+	display:block;
+}
+.img_func1_reason {
+	width: 320px;
+	height: 260px;
+	z-index:1;
+	background:url(func1_reason.png);
+	/* position: fixed;
+	top: 54%;
+	left:72%; */
+	padding:0px;
+	margin-left: 200px;
+	display:block;
+}
+.img_func2_reason {
+	width: 320px;
+	height: 260px;
+	z-index:1;
+	background:url(func2_reason.png);
+	/* position: fixed;
+	top: 54%;
+	left:72%; */
+	padding:0px;
+	margin-left: 200px;
+	display:block;
+}
+
+.img_func2_question {
+	width: 220px;
+	height: 180px;
+	z-index:1;
+	background:url(func2_question.png);
+	/* position: fixed;
+	top: 54%;
+	left:72%; */
+	padding:0px;
+	margin:0px;
+	display:block;
+}
+
+
+.func2-question {
+	width: 580px;
+	height: 180px;
+	background-color: #FFFFFF;
+	position: fixed;
+	top:15px;
+	left:15px;
+	border-style:solid;
+	border-color:#000000;
+	border-width:2px;
+	border-radius: 12px;
+	font-size:16px;
+	outline:none;
+	padding-left:10px;
+	padding-right:10px;		
+	overflow: auto;
+}
+
+.button-func3-backtomain {
+	width: 80px;
+	height: 30px;
+	color: black;
+	background-color: white;
+	border-color: black;
+	border-radius: 15px;
+	left:43%;
+	bottom:15px;
+	position:absolute;
+	font-weight:bold;
+	font-size:16px;
+	outline:none;
+}
+
+.button-func3-topic{
+	color: black;
+	/* background-color: white; */
+	/* border-color: black; */
+	/* border-radius: 12px; */
+	left:25px;
+	top:40%;
+	position:absolute;
+	font-weight:bold;
+	font-size:22px;
+	outline:none;
+}
+
+.func3-routebox {
+	width: 500px;
+	height: 190px;
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 175px;
+	left:50%;
+	border-style:solid;
+	border-color:#000000;
+	border-width:2px;
+	border-radius: 15px;
+	font-size:15px;
+	font-weight:bold; 
+	text-align:center;
+	transform:translate(-50%,-50%);
+}
+
+.func4-contentbox {
+	width: 730px;
+	height: 340px;
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 50px;
+	left:32px;
+	border-style:solid;
+	border-color:#000000;
+	border-width:2px;
+	border-radius: 12px;
+	font-size:20px;
+	text-align:center;
+	vertical-align:center;
+	padding-top: 12px;
+	padding-left: 17px;
+	overflow: auto;
+}
+
+
+.button-func4-backtomain {     
+	width: 80px;
+	height: 30px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-color: black;
+	border-radius: 15px;
+/*	box-shadow: 0 2px #000000;*/
+	bottom: 15px;
+	right:37%;
+	position:absolute;
+	outline:none;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.button-func4-tocontent1 {
+	width: 120px;
+	height: 35px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-color: black;
+	border-radius: 18px;
+/*	box-shadow: 0 2px #000000;*/
+	top: 400px;
+	left:32px;
+	position:absolute;
+	outline:none;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.button-func4-tocontent2 {
+	width: 120px;
+	height: 35px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-color: black;
+	border-radius: 18px;
+/*	box-shadow: 0 2px #000000;*/
+	top: 400px;
+	left:162px;
+	position:absolute;
+	outline:none;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.button-func4-tocontent3 {
+	width: 120px;
+	height: 35px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-color: black;
+	border-radius: 18px;
+/*	box-shadow: 0 2px #000000;*/
+	top: 400px;
+	left:292px;
+	position:absolute;
+	outline:none;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.button-func4-tocontent4 {
+	width: 120px;
+	height: 35px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-color: black;
+	border-radius: 18px;
+/*	box-shadow: 0 2px #000000;*/
+	top: 400px;
+	left:422px;
+	position:absolute;
+	outline:none;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.button-func4-backtomenu {     
+	width: 80px;
+	height: 30px;
+	color: #000000;
+	background-color: #FFFFFF;
+	border-color: black;
+	border-radius: 15px;
+/*	box-shadow: 0 2px #000000;*/
+	bottom: 15px;
+	left:37%;
+	position:absolute;
+	outline:none;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.title-size {
+	font-size:30px;
+	font-weight:bolder;
+	text-align:center;	
+}
+.tablemargin {
+	padding-left: 50px;  
+}
+
+.line{
+	position: absolute;
+	width: 0px;
+	height:161px;/*这里需要自己调整，根据td的宽度和高度*/
+	top:16px;
+	left:17px;
+	background-color: white;
+	display: block;
+	transform: rotate(-68deg);/*这里需要自己调整，根据线的位置*/
+	transform-origin: top;
+	border-bottom-color:black;
+	border-top-color:black;
+	z-index:1;
+}
+
+.tableheadtext1 {
+	top: 20px;
+	padding-left:60px;
+}
+.tableheadtext2 {
+	bottom: 20px;
+	padding-right: 60px;
+}
+
+.func4-detail1 {
+	width: 740px;
+	height: 330px;
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 42%;
+	left:50%;
+	border-style:solid;
+	border-color:#000000;
+	border-width:2px;
+	border-radius: 15px;
+	font-size:20px;
+	text-align:center;
+	transform:translate(-50%,-50%);
+}
+
+.func4-detail2 {
+	width: 740px;
+	height: 330px;
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 42%;
+	left:50%;
+	border-style:solid;
+	border-color:#000000;
+	border-width:2px;
+	border-radius: 15px;
+	font-size:20px;
+	text-align:center;
+	transform:translate(-50%,-50%);
+}
+
+.func4-detail3 {
+	width: 740px;
+	height: 330px;
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 42%;
+	left:50%;
+	border-style:solid;
+	border-color:#000000;
+	border-width:2px;
+	border-radius: 15px;
+	font-size:20px;
+	text-align:center;
+	transform:translate(-50%,-50%);
+}
+
+.func4-detail4 {
+	width: 740px;
+	height: 330px;
+	background-color: #FFFFFF;
+	position: fixed;
+	top: 42%;
+	left:50%;
+	border-style:solid;
+	border-color:#000000;
+	border-width:2px;
+	border-radius: 15px;
+	font-size:20px;
+	text-align:center;
+	transform:translate(-50%,-50%);
+}
