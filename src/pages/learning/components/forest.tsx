@@ -15,7 +15,7 @@ class Forest extends React.Component<any, any> {
           style={{
             position: 'absolute',
             left: 10,
-            marginLeft: 240,
+            marginLeft: 450,
             visibility: 'hidden',
             top: 10,
             marginTop: 56
