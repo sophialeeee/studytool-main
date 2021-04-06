@@ -66,9 +66,14 @@ class Login extends React.Component {
     }
   }
 
+
+
   render() {
     const { username, passwd, auth } = this.props;
     const img = require('../../assets/bgNow.jpg');
+    localStorage.removeItem('currentSubjectName');
+    localStorage.removeItem('graph');
+    localStorage.removeItem('currentDomainName');
     return (
       <div>
         <img className={styles.bg} src={img} />
