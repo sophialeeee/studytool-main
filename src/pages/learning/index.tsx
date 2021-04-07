@@ -559,7 +559,7 @@ class Learning extends React.Component<any, any> {
 				</div>
 			</div>
 			
-			<div style={{ marginLeft: 240, overflow: 'hidden', maxHeight: 'calc(100vh - 60px)' }}>
+			<div style={{ marginLeft: 450, overflow: 'hidden', maxHeight: 'calc(100vh - 60px)' }}>
 			  {
 				currentDomainName &&
 				<Forest currentDomainName={currentDomainName} learningPath={learningPath} clickTopic={this.handleClickTopic} clickFacet={this.handleClickFacet} />
