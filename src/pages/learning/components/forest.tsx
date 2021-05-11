@@ -34,7 +34,7 @@ class Forest extends React.Component<any, any> {
       const svg = document.getElementById('map');
       emptyChildren(treesvg);
       emptyChildren(svg);
-      drawMap(svg, treesvg, currentDomainName, learningPath, (topicId: number, topicName: string) => {clickTopic(topicName)}, clickFacet);
+      // drawMap(svg, treesvg, currentDomainName, learningPath, (topicId: number, topicName: string) => {clickTopic(topicName)}, clickFacet,()=>{}, ()=>{}, ()=>{}, ()=>{}, ()=>{}, 'none', ()=>{}, ()=>{}, );
     }
     return false;
   }
@@ -48,7 +48,7 @@ class Forest extends React.Component<any, any> {
       console.log("svg,treesvg,currentDomainName,learningPath",svg,treesvg,currentDomainName,learningPath)
       Axios.get('http://47.95.145.72:80/dependences/?domainName=' + currentDomainName)
            .then(res => {
-            drawMap(res.data, svg, treesvg, currentDomainName, learningPath, (topicId: number, topicName: string) => {clickTopic(topicName)}, clickFacet);
+            drawMap(res.data, svg, treesvg, currentDomainName, learningPath, (topicId: number, topicName: string) => {clickTopic(topicName)}, clickFacet,()=>{}, ()=>{}, ()=>{},()=>{},()=>{}, 'none',()=>{},()=>{}  );
            })
            .catch(e=>console.log(e));
       
